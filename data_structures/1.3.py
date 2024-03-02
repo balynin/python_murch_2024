@@ -1,1 +1,1 @@
-print(float(eval(input("первая сторона : ") + '*'+ input("вторая сторона : ") )))
+print(float(eval(input("первая сторона : ") + ' * '+ input("вторая сторона : ") )))

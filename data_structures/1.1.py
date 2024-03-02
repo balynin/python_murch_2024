@@ -1,1 +1,1 @@
-print(float(eval(input("сторона квадрата : ") + "* 4")))
+print(float(eval(input("сторона квадрата : ") + " * 4")))
