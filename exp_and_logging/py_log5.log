@@ -1,0 +1,5 @@
+ERROR:root:DNegativeError
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\python_murch_2024\exp_and_logging\5.py", line 26, in <module>
+    raise Exception
+Exception

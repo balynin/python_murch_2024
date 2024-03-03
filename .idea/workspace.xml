@@ -4,49 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="562245b1-72cd-42a8-974c-70926457c47f" name="Changes" comment="part3add">
-      <change afterPath="$PROJECT_DIR$/exp_and_logging/__init__.py" afterDir="false" />
+    <list default="true" id="562245b1-72cd-42a8-974c-70926457c47f" name="Changes" comment="allpart">
+      <change afterPath="$PROJECT_DIR$/conditions_if_else/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/py_log5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/py_log6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_and_logging/py_log7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loop_for_while/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part1/1.9.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part1/1.9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part2/2.9.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part2/2.9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part3/3.9.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part3/3.9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part4_list/4.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part4_list/4.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part4_list/4.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part4_list/4.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part4_list/4.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part4_list/4.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part4_list/4.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part4_list/4.4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part4_list/4.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part4_list/4.5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part5_dict/5.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part5_dict/5.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part5_dict/5.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part5_dict/5.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part5_dict/5.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part5_dict/5.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part5_dict/5.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part5_dict/5.4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/part6_add/6.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part6_add/6.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structures/part6_add/6.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/part6_add/6.2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +83,7 @@
     "Python.2.7.executor": "Run",
     "Python.2.8.executor": "Run",
     "Python.2.9.executor": "Run",
+    "Python.2.executor": "Run",
     "Python.3.1.executor": "Run",
     "Python.3.10.executor": "Run",
     "Python.3.2.executor": "Run",
@@ -129,8 +102,11 @@
     "Python.5.2.executor": "Run",
     "Python.5.3.executor": "Run",
     "Python.5.4.executor": "Run",
+    "Python.5.executor": "Run",
     "Python.6.1.executor": "Run",
     "Python.6.2.executor": "Run",
+    "Python.6.executor": "Run",
+    "Python.7.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -187,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709368237294</updated>
-      <workItem from="1709368245893" duration="39113000" />
+      <workItem from="1709368245893" duration="51682000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 add">
       <option name="closed" value="true" />
@@ -237,18 +213,38 @@
       <option name="project" value="LOCAL" />
       <updated>1709450747805</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="allpart">
+      <option name="closed" value="true" />
+      <created>1709463593845</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709463593845</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1.1 add" />
     <MESSAGE value="1.1 addn" />
     <MESSAGE value="part3add" />
-    <option name="LAST_COMMIT_MESSAGE" value="part3add" />
+    <MESSAGE value="allpart" />
+    <option name="LAST_COMMIT_MESSAGE" value="allpart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,6 +273,7 @@
     <SUITE FILE_PATH="coverage/python_murch_2024$2_2.coverage" NAME="2.2 Coverage Results" MODIFIED="1709401660336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$2_5.coverage" NAME="2.5 Coverage Results" MODIFIED="1709404334790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_7.coverage" NAME="1.7 Coverage Results" MODIFIED="1709396675916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$6.coverage" NAME="6 Coverage Results" MODIFIED="1709496040442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp_and_logging" />
     <SUITE FILE_PATH="coverage/python_murch_2024$main.coverage" NAME="main Coverage Results" MODIFIED="1709379155308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_murch_2024$4_4.coverage" NAME="4.4 Coverage Results" MODIFIED="1709424150567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part4_list" />
     <SUITE FILE_PATH="coverage/python_murch_2024$5_2.coverage" NAME="5.2 Coverage Results" MODIFIED="1709450448099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part5_dict" />
@@ -289,18 +286,21 @@
     <SUITE FILE_PATH="coverage/python_murch_2024$2_7.coverage" NAME="2.7 Coverage Results" MODIFIED="1709407974774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_4.coverage" NAME="1.4 Coverage Results" MODIFIED="1709397356244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_1.coverage" NAME="1.1 Coverage Results" MODIFIED="1709456699486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part1" />
-    <SUITE FILE_PATH="coverage/python_murch_2024$6_2.coverage" NAME="6.2 Coverage Results" MODIFIED="1709406432746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part6_add" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$7.coverage" NAME="7 Coverage Results" MODIFIED="1709496030964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp_and_logging" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$6_2.coverage" NAME="6.2 Coverage Results" MODIFIED="1709470047659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part6_add" />
     <SUITE FILE_PATH="coverage/python_murch_2024$3_8.coverage" NAME="3.8 Coverage Results" MODIFIED="1709418536358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part3" />
     <SUITE FILE_PATH="coverage/python_murch_2024$6_1.coverage" NAME="6.1 Coverage Results" MODIFIED="1709406078621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part6_add" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_9.coverage" NAME="1.9 Coverage Results" MODIFIED="1709398969828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_murch_2024$5_3.coverage" NAME="5.3 Coverage Results" MODIFIED="1709450584402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part5_dict" />
     <SUITE FILE_PATH="coverage/python_murch_2024$2_4.coverage" NAME="2.4 Coverage Results" MODIFIED="1709402882919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$4_5.coverage" NAME="4.5 Coverage Results" MODIFIED="1709463106216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part4_list" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$2.coverage" NAME="2 Coverage Results" MODIFIED="1709477379502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp_and_logging" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_6.coverage" NAME="1.6 Coverage Results" MODIFIED="1709397560597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_murch_2024$3_2.coverage" NAME="3.2 Coverage Results" MODIFIED="1709413833012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part3" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_3.coverage" NAME="1.3 Coverage Results" MODIFIED="1709397296544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_murch_2024$2_1.coverage" NAME="2.1 Coverage Results" MODIFIED="1709400738714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$2_10.coverage" NAME="2.10 Coverage Results" MODIFIED="1709409068292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_10.coverage" NAME="1.10 Coverage Results" MODIFIED="1709400066972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$5.coverage" NAME="5 Coverage Results" MODIFIED="1709487430984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp_and_logging" />
   </component>
 </project>
