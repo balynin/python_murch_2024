@@ -1,0 +1,18 @@
+ERROR:root:ValueError
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\python_murch_2024\exp_and_logging\7.py", line 9, in <module>
+    item = int(input('вводим число : '))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 's'
+ERROR:root:ValueError
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\python_murch_2024\exp_and_logging\7.py", line 9, in <module>
+    item = int(input('вводим число : '))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 's'
+ERROR:root:ValueError
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\python_murch_2024\exp_and_logging\7.py", line 9, in <module>
+    item = int(input('вводим число : '))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 's'

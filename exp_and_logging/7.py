@@ -1,9 +1,15 @@
-import random
 import logging
 logging.basicConfig(level=logging.INFO, filename="py_log7.log", filemode="w")
 
-rand_list = []
-n = 30
-for i in range(n):
-	rand_list.append(random.randint(0, 99))
-print(sum(rand_list)/len(rand_list))
+input_list = []
+max_length = 3
+while True:
+   try:
+       while len(input_list) < max_length:
+          item = int(input('вводим число : '))
+          input_list.append(item)
+       print(sum(input_list)/len(input_list))
+       break
+   except ValueError:
+       print('вводите цифры')
+       logging.error('ValueError', exc_info=True)

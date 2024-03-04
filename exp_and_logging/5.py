@@ -25,5 +25,5 @@ while True:
        elif d < 0:
           raise Exception
     except Exception:
-        logging.error('DNegativeError', exc_info=True)
-        print('D отрицательный')
+       logging.error('DNegativeError', exc_info=True)
+       print('D отрицательный')
