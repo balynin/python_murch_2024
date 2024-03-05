@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="562245b1-72cd-42a8-974c-70926457c47f" name="Changes" comment="allpart">
-      <change afterPath="$PROJECT_DIR$/IO_streams/311-service-requests.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO_streams/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO_streams/7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO_streams/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO_streams/bikes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/if_else/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/if_else/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/if_else/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/if_else/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/if_else/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/if_else/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/switch_case/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/switch_case/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/switch_case/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/switch_case/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/switch_case/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/switch_case/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditions_if_else/switch_case/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="562245b1-72cd-42a8-974c-70926457c47f" name="Changes" comment="allpart" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709368237294</updated>
       <workItem from="1709368245893" duration="55542000" />
-      <workItem from="1709535797190" duration="38162000" />
+      <workItem from="1709535797190" duration="39411000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 add">
       <option name="closed" value="true" />
@@ -252,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709554867517</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="allpart">
+      <option name="closed" value="true" />
+      <created>1709646918006</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709646918006</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
