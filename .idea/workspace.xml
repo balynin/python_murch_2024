@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="562245b1-72cd-42a8-974c-70926457c47f" name="Changes" comment="allpart" />
+    <list default="true" id="562245b1-72cd-42a8-974c-70926457c47f" name="Changes" comment="allpart">
+      <change afterPath="$PROJECT_DIR$/IO_streams/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO_streams/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO_streams/3-4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO_streams/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO_streams/lorum.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditions_if_else/switch_case/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/conditions_if_else/switch_case/5.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,75 +53,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.1.1.executor": "Run",
-    "Python.1.10.executor": "Run",
-    "Python.1.2.executor": "Run",
-    "Python.1.3.executor": "Run",
-    "Python.1.4.executor": "Run",
-    "Python.1.5.executor": "Run",
-    "Python.1.6.executor": "Run",
-    "Python.1.7.executor": "Run",
-    "Python.1.8.executor": "Run",
-    "Python.1.9.executor": "Run",
-    "Python.1.executor": "Run",
-    "Python.10.executor": "Run",
-    "Python.11.executor": "Run",
-    "Python.12.executor": "Run",
-    "Python.13.executor": "Run",
-    "Python.2.1.executor": "Run",
-    "Python.2.10.executor": "Run",
-    "Python.2.2.executor": "Run",
-    "Python.2.4.executor": "Run",
-    "Python.2.5.executor": "Run",
-    "Python.2.6.executor": "Run",
-    "Python.2.7.executor": "Run",
-    "Python.2.8.executor": "Run",
-    "Python.2.9.executor": "Run",
-    "Python.2.executor": "Run",
-    "Python.3.1.executor": "Run",
-    "Python.3.10.executor": "Run",
-    "Python.3.2.executor": "Run",
-    "Python.3.3.executor": "Run",
-    "Python.3.4.executor": "Run",
-    "Python.3.5.executor": "Run",
-    "Python.3.6.executor": "Run",
-    "Python.3.7.executor": "Run",
-    "Python.3.8.executor": "Run",
-    "Python.3.executor": "Run",
-    "Python.4.1.executor": "Run",
-    "Python.4.2.executor": "Run",
-    "Python.4.3.executor": "Run",
-    "Python.4.4.executor": "Run",
-    "Python.4.5.executor": "Run",
-    "Python.4.executor": "Run",
-    "Python.5.1.executor": "Run",
-    "Python.5.2.executor": "Run",
-    "Python.5.3.executor": "Run",
-    "Python.5.4.executor": "Run",
-    "Python.5.executor": "Run",
-    "Python.6.1.executor": "Run",
-    "Python.6.2.executor": "Run",
-    "Python.6.executor": "Run",
-    "Python.7.executor": "Run",
-    "Python.8.executor": "Run",
-    "Python.9.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.1.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\python_murch_2024\IO_streams" />
       <recent name="C:\Users\user\PycharmProjects\python_murch_2024\loop_for_while" />
       <recent name="C:\Users\user\PycharmProjects\python_murch_2024\data_structures\part3" />
     </key>
@@ -160,7 +175,13 @@
       <updated>1709368237294</updated>
       <workItem from="1709368245893" duration="55542000" />
       <workItem from="1709535797190" duration="40694000" />
-      <workItem from="1709660040670" duration="7127000" />
+      <workItem from="1709660040670" duration="7594000" />
+      <workItem from="1709720236613" duration="3689000" />
+      <workItem from="1710011875628" duration="158000" />
+      <workItem from="1710417743287" duration="8262000" />
+      <workItem from="1710578769072" duration="699000" />
+      <workItem from="1710668242706" duration="958000" />
+      <workItem from="1710669269198" duration="3812000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 add">
       <option name="closed" value="true" />
@@ -266,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709669346183</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="allpart">
+      <option name="closed" value="true" />
+      <created>1709669609785</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709669609785</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +340,7 @@
     <SUITE FILE_PATH="coverage/python_murch_2024$4_2.coverage" NAME="4.2 Coverage Results" MODIFIED="1709424046336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part4_list" />
     <SUITE FILE_PATH="coverage/python_murch_2024$3_1.coverage" NAME="3.1 Coverage Results" MODIFIED="1709412292095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part3" />
     <SUITE FILE_PATH="coverage/python_murch_2024$2_6.coverage" NAME="2.6 Coverage Results" MODIFIED="1709407715149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
-    <SUITE FILE_PATH="coverage/python_murch_2024$3_4.coverage" NAME="3.4 Coverage Results" MODIFIED="1709414948231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part3" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$3_4.coverage" NAME="3-4 Coverage Results" MODIFIED="1710439154659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_streams" />
     <SUITE FILE_PATH="coverage/python_murch_2024$5_4.coverage" NAME="5.4 Coverage Results" MODIFIED="1709450668704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part5_dict" />
     <SUITE FILE_PATH="coverage/python_murch_2024$4_3.coverage" NAME="4.3 Coverage Results" MODIFIED="1709424102308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part4_list" />
     <SUITE FILE_PATH="coverage/python_murch_2024$3_10.coverage" NAME="3.10 Coverage Results" MODIFIED="1709418866984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part3" />
@@ -326,7 +355,7 @@
     <SUITE FILE_PATH="coverage/python_murch_2024$2_1.coverage" NAME="2.1 Coverage Results" MODIFIED="1709400738714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$2_10.coverage" NAME="2.10 Coverage Results" MODIFIED="1709409068292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_10.coverage" NAME="1.10 Coverage Results" MODIFIED="1709400066972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
-    <SUITE FILE_PATH="coverage/python_murch_2024$5.coverage" NAME="5 Coverage Results" MODIFIED="1709642906299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conditions_if_else/switch_case" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$5.coverage" NAME="5 Coverage Results" MODIFIED="1710672536235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conditions_if_else/switch_case" />
     <SUITE FILE_PATH="coverage/python_murch_2024$11.coverage" NAME="11 Coverage Results" MODIFIED="1709552747202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop_for_while" />
     <SUITE FILE_PATH="coverage/python_murch_2024$3.coverage" NAME="3 Coverage Results" MODIFIED="1709634037366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conditions_if_else/switch_case" />
     <SUITE FILE_PATH="coverage/python_murch_2024$3_3.coverage" NAME="3.3 Coverage Results" MODIFIED="1709413910144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part3" />
@@ -337,7 +366,7 @@
     <SUITE FILE_PATH="coverage/python_murch_2024$2_5.coverage" NAME="2.5 Coverage Results" MODIFIED="1709404334790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_7.coverage" NAME="1.7 Coverage Results" MODIFIED="1709396675916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_murch_2024$6.coverage" NAME="6 Coverage Results" MODIFIED="1709641021409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conditions_if_else/switch_case" />
-    <SUITE FILE_PATH="coverage/python_murch_2024$main.coverage" NAME="main Coverage Results" MODIFIED="1709535934254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$main.coverage" NAME="main Coverage Results" MODIFIED="1710669708844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_murch_2024$4_4.coverage" NAME="4.4 Coverage Results" MODIFIED="1709424150567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part4_list" />
     <SUITE FILE_PATH="coverage/python_murch_2024$5_2.coverage" NAME="5.2 Coverage Results" MODIFIED="1709450448099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part5_dict" />
     <SUITE FILE_PATH="coverage/python_murch_2024$2_8.coverage" NAME="2.8 Coverage Results" MODIFIED="1709408306013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
@@ -352,7 +381,7 @@
     <SUITE FILE_PATH="coverage/python_murch_2024$1_9.coverage" NAME="1.9 Coverage Results" MODIFIED="1709398969828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_murch_2024$2_4.coverage" NAME="2.4 Coverage Results" MODIFIED="1709402882919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part2" />
     <SUITE FILE_PATH="coverage/python_murch_2024$4_5.coverage" NAME="4.5 Coverage Results" MODIFIED="1709463106216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/part4_list" />
-    <SUITE FILE_PATH="coverage/python_murch_2024$2.coverage" NAME="2 Coverage Results" MODIFIED="1709633652877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conditions_if_else/switch_case" />
+    <SUITE FILE_PATH="coverage/python_murch_2024$2.coverage" NAME="2 Coverage Results" MODIFIED="1710419688558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_streams" />
     <SUITE FILE_PATH="coverage/python_murch_2024$8.coverage" NAME="8 Coverage Results" MODIFIED="1709576525138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_streams" />
     <SUITE FILE_PATH="coverage/python_murch_2024$1_3.coverage" NAME="1.3 Coverage Results" MODIFIED="1709397296544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures" />
     <SUITE FILE_PATH="coverage/python_murch_2024$13.coverage" NAME="13 Coverage Results" MODIFIED="1709558452891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop_for_while" />
