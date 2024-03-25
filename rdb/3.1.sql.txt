@@ -1,0 +1,163 @@
+# Создайте базу данных. Реализуйте схему базы данных сĸлада, представленную на ĸартинĸе.
+# Вам понадобятся ĸоманды create database, create table. И не забывайте о первичных и вторичных ĸлючах!
+# Заполните, ĸаждую таблицу минимум 10 строĸами данных Вам понадобиться инструĸция INSERT
+
+
+
+-- PostgreSQL version: 15.0
+-- Project Site: pgmodeler.io
+-- Model Author: ---
+
+-- Database creation must be performed outside a multi lined SQL file.
+-- These commands were put in this file only as a convenience.
+--
+-- object: my_sales | type: DATABASE --
+-- DROP DATABASE IF EXISTS my_sales;
+CREATE DATABASE my_sales;
+-- ddl-end --
+
+
+-- object: public.clients | type: TABLE --
+-- DROP TABLE IF EXISTS public.clients CASCADE;
+CREATE TABLE public.clients (
+	client_id serial NOT NULL,
+	fio text,
+	address text,
+	phone text,
+	CONSTRAINT client_id PRIMARY KEY (client_id)
+);
+-- ddl-end --
+ALTER TABLE public.clients OWNER TO postgres;
+-- ddl-end --
+
+INSERT INTO public.clients (client_id, fio, address, phone) VALUES (E'1', E'Balynin Dmitry Erlichovich', E'Yaroslavl Sovetskaya st 57 - 148', E'+7 123-65-49');
+-- ddl-end --
+INSERT INTO public.clients (client_id, fio, address, phone) VALUES (E'2', E'Ivanov Ivan Inanovicn', E'Moskwa Bolshaya Yakimanka 35-13', E'+8 567-98-76');
+-- ddl-end --
+INSERT INTO public.clients (client_id, fio, address, phone) VALUES (E'3', E'Sergeev Sergey Sergeevich', E'Ivanovo Tcachkaya st 16-32', E'+9 345-98-98');
+-- ddl-end --
+
+-- object: public.goods | type: TABLE --
+-- DROP TABLE IF EXISTS public.goods CASCADE;
+CREATE TABLE public.goods (
+	good_id serial NOT NULL,
+	supply_id smallint,
+	good_name text,
+	specifications text,
+	description text,
+	pic text,
+	cost_price money,
+	sell_price money,
+	availably boolean,
+	quantity smallint,
+	supply_id_supply integer,
+	CONSTRAINT good_id PRIMARY KEY (good_id)
+);
+-- ddl-end --
+ALTER TABLE public.goods OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.employees | type: TABLE --
+-- DROP TABLE IF EXISTS public.employees CASCADE;
+CREATE TABLE public.employees (
+	employee_id serial NOT NULL,
+	last_name text,
+	first_name text,
+	middle_name text,
+	"position" text,
+	address text,
+	phone text,
+	birthday date,
+	CONSTRAINT employee_id PRIMARY KEY (employee_id)
+);
+-- ddl-end --
+ALTER TABLE public.employees OWNER TO postgres;
+-- ddl-end --
+
+INSERT INTO public.employees (employee_id, last_name, first_name, middle_name, "position", address, phone, birthday) VALUES (E'1', E'Иванов', E'Иван', E'иванович', E'программер', E'Ярославль Советская 57-148', E'222-222-34-56', E'09.04.1991');
+-- ddl-end --
+INSERT INTO public.employees (employee_id, last_name, first_name, middle_name, "position", address, phone, birthday) VALUES (E'2', E'Петров', E'петр', E'петрович', E'ютубер', E'Москва Большая Якиманка 35 стр 2 - 13', E'345-567-33-33', E'08.09.1990');
+-- ddl-end --
+
+-- object: public.supply | type: TABLE --
+-- DROP TABLE IF EXISTS public.supply CASCADE;
+CREATE TABLE public.supply (
+	supply_id serial NOT NULL,
+	provide_id smallint,
+	date_supply time,
+	provider_id_provider integer,
+	CONSTRAINT supply_id PRIMARY KEY (supply_id)
+);
+-- ddl-end --
+ALTER TABLE public.supply OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.provider | type: TABLE --
+-- DROP TABLE IF EXISTS public.provider CASCADE;
+CREATE TABLE public.provider (
+	provider_id serial NOT NULL,
+	provider_name text,
+	supplier_represent text,
+	ask_to text,
+	phone text,
+	address text,
+	CONSTRAINT provider_id PRIMARY KEY (provider_id)
+);
+-- ddl-end --
+ALTER TABLE public.provider OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.orders | type: TABLE --
+-- DROP TABLE IF EXISTS public.orders CASCADE;
+CREATE TABLE public.orders (
+	order_id serial NOT NULL,
+	employee_id smallint,
+	good_id smallint,
+	date_accomm date,
+	date_exec date,
+	client_id smallint,
+	client_id_clients integer,
+	good_id_goods integer,
+	employee_id_employees integer,
+	CONSTRAINT orders_pk PRIMARY KEY (order_id)
+);
+-- ddl-end --
+ALTER TABLE public.orders OWNER TO postgres;
+-- ddl-end --
+
+-- object: clients_fk | type: CONSTRAINT --
+-- ALTER TABLE public.orders DROP CONSTRAINT IF EXISTS clients_fk CASCADE;
+ALTER TABLE public.orders ADD CONSTRAINT clients_fk FOREIGN KEY (client_id_clients)
+REFERENCES public.clients (client_id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: goods_fk | type: CONSTRAINT --
+-- ALTER TABLE public.orders DROP CONSTRAINT IF EXISTS goods_fk CASCADE;
+ALTER TABLE public.orders ADD CONSTRAINT goods_fk FOREIGN KEY (good_id_goods)
+REFERENCES public.goods (good_id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: employees_fk | type: CONSTRAINT --
+-- ALTER TABLE public.orders DROP CONSTRAINT IF EXISTS employees_fk CASCADE;
+ALTER TABLE public.orders ADD CONSTRAINT employees_fk FOREIGN KEY (employee_id_employees)
+REFERENCES public.employees (employee_id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: provider_fk | type: CONSTRAINT --
+-- ALTER TABLE public.supply DROP CONSTRAINT IF EXISTS provider_fk CASCADE;
+ALTER TABLE public.supply ADD CONSTRAINT provider_fk FOREIGN KEY (provider_id_provider)
+REFERENCES public.provider (provider_id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+-- object: supply_fk | type: CONSTRAINT --
+-- ALTER TABLE public.goods DROP CONSTRAINT IF EXISTS supply_fk CASCADE;
+ALTER TABLE public.goods ADD CONSTRAINT supply_fk FOREIGN KEY (supply_id_supply)
+REFERENCES public.supply (supply_id) MATCH FULL
+ON DELETE SET NULL ON UPDATE CASCADE;
+-- ddl-end --
+
+

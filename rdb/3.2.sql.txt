@@ -1,0 +1,6 @@
+INSERT INTO public.employees (employee_id, last_name, first_name, middle_name, "position", address, phone, birthday)
+VALUES (E'1', E'Иванов', E'Иван', E'иванович', E'программер', E'Ярославль Советская 57-148', E'222-222-34-56', E'09.04.1991');
+-- ddl-end --
+INSERT INTO public.employees (employee_id, last_name, first_name, middle_name, "position", address, phone, birthday)
+VALUES (E'2', E'Петров', E'петр', E'петрович', E'ютубер', E'Москва Большая Якиманка 35 стр 2 - 13', E'345-567-33-33', E'08.09.1990');
+-- ddl-end --
