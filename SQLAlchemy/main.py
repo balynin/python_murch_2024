@@ -1,8 +1,5 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from db_init import *
+
 
 # 2 Создайте новую бд . Напишите коннектор для подключения к базе данных postgresql.
 print(engine)
@@ -34,8 +31,8 @@ res = query.first()
 print(res.quantity, res.sell_price)
 
 # 8 # Получите данные вместе с WHERE, ORDER BY, GROUP BY, DISTINCT и выведите на экран.
-record = session.query(Good).filter_by(good_name="1971-04-04").first()
-print(record)
+res = session.query(Good).filter_by(good_name="1971-04-04").first()
+print(res)
 
 
 # 9 Примените несколько функций агрегации и выведите результат на экран
@@ -48,3 +45,7 @@ query = session.query(Provider)
 query = query.filter(Provider.provider_id > 4)
 query.delete()
 session.commit()
+
+query = session.query(Provider)
+for row in query:
+    print(row)
