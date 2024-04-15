@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="562245b1-72cd-42a8-974c-70926457c47f" name="Changes" comment="last">
-      <change afterPath="$PROJECT_DIR$/aleembic/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLAlchemy/alembic/README" beforeDir="false" afterPath="$PROJECT_DIR$/SQLAlchemy/alembic/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLAlchemy/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQLAlchemy/alembic/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLAlchemy/alembic/script.py.mako" beforeDir="false" afterPath="$PROJECT_DIR$/SQLAlchemy/alembic/script.py.mako" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-    </list>
+    <list default="true" id="562245b1-72cd-42a8-974c-70926457c47f" name="Changes" comment="last" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,6 +191,7 @@
       <workItem from="1711711663940" duration="29512000" />
       <workItem from="1712740590233" duration="12000" />
       <workItem from="1713087743322" duration="23285000" />
+      <workItem from="1713168901529" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 add">
       <option name="closed" value="true" />
@@ -374,7 +369,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713168633422</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="last">
+      <option name="closed" value="true" />
+      <created>1713169147931</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713169147931</updated>
+    </task>
+    <task id="LOCAL-00024" summary="last">
+      <option name="closed" value="true" />
+      <created>1713169201112</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713169201112</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +396,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
